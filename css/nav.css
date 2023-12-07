@@ -1,0 +1,64 @@
+
+.top_container a:hover{
+    color: red;
+}
+.top_container a:active{
+    color: red; 
+}
+
+.top_container a{
+   
+    flex:1;
+    background-color: black;
+    padding: 48px 46px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-color: aliceblue;
+}
+.top_container{
+    display:flex;
+    width:100%;
+    background-color: black;
+    padding: 48px 46px;
+    border: 1px solid;
+    box-shadow: 20%;
+    border-color: gainsboro;
+    text-align: center;
+    border-radius: 20px;
+   
+
+}
+.homebutton{
+flex:1;
+font-size: x-large;
+border-radius: 20px;
+
+
+
+}
+.aboutbutton{
+    flex:20%;
+    font-size: x-large;
+    border-radius: 20px;
+   
+    
+}
+.edubutton{
+    flex:20%;
+    font-size: x-large;
+    border-radius: 20px;
+    
+}
+.projecbutton{
+    flex:20%;
+    font-size: x-large;
+    border-radius: 20px;
+   
+}
+.contbutton{
+    flex:20%;
+    font-size: x-large;
+    border-radius: 20px;
+    
+}

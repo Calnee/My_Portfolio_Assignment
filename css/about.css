@@ -1,0 +1,59 @@
+.about_container{
+    display: flex;
+    width: 100%;
+    gap:20px;
+}
+
+
+.about{
+    flex: 1;
+    padding-left: 40px;
+    padding-top: 50px;
+    border: 1px solid gainsboro;
+    border-radius: 40px;
+    border-width:thin medium;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  transition: transform ease 0.5s, box-shadow ease 0.5s;
+    padding-bottom: 10px;
+}
+.hs_details{
+
+    padding-left: 60px;
+}
+.grad_detail{
+
+    padding-left: 60px;
+    padding-top: 10px;
+}
+.skillss{
+    flex: 1;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 10%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  transition: width 2s;
+  
+}
+.container:hover {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  padding-right: 40px;
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #808080;} /* Green */
+.css {width: 80%; background-color: #808080;} /* Blue */
+.js {width: 65%; background-color: #808080;} /* Red */

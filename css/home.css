@@ -1,0 +1,51 @@
+
+
+.home_container{
+    background-color: black;
+    height: 500px;
+    display: flex;
+    width:100%;
+    border-radius: 20px;
+}
+.title{
+    
+   position: relative;
+    padding-left: 170px; 
+    
+}
+
+.img_container{
+    
+    border-radius: 30px;
+    box-shadow: 10%;
+    opacity: 50%;
+    position:absolute;
+    size: 40%;
+    border: 1px solid #333333;
+  width: 1003px;
+  height: 400px;
+  overflow: hidden;
+  top:30%;
+  bottom: 10%;
+  
+    
+ 
+}
+.fade{
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  font-weight: normal;
+  opacity: 30%;
+  font-style: italic;
+}
+.fade:hover{
+  color: white;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  font-weight: normal;
+  opacity: 90%;
+  transition-duration: 2s;
+}
