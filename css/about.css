@@ -8,13 +8,26 @@
 .about{
     flex: 1;
     padding-left: 40px;
-    padding-top: 50px;
+    padding-top: 40px;
     border: 1px solid gainsboro;
     border-radius: 40px;
     border-width:thin medium;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
   transition: transform ease 0.5s, box-shadow ease 0.5s;
     padding-bottom: 10px;
+}
+
+.about:hover{
+  flex: 1;
+  padding-left: 40px;
+  padding-top: 40px;
+  border: 1px solid gainsboro;
+  border-radius: 40px;
+  border-width:thick;
+  transition-duration: 6s;
+  box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.5);
+transition: transform ease 0.5s, box-shadow ease 0.5s;
+  padding-bottom: 10px;
 }
 .hs_details{
 
@@ -35,7 +48,7 @@
 
 /* Container for skill bars */
 .container {
-  width: 10%; /* Full width */
+  width: 20%; /* Full width */
   background-color: #ddd; /* Grey background */
   transition: width 2s;
   

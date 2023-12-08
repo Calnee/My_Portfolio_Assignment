@@ -20,6 +20,22 @@
     padding-left: 40px;
     border-radius: 30px;
     box-shadow: 10%;
+    opacity: 30%;
+    
+}
+
+.exp_img:hover{
+    flex:2;
+    height: 60px;
+    width: 70px;
+    opacity: 70%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border-radius: 30px;
+    box-shadow: 10%;
+    opacity: 90%;
+    transition-duration: 3s;
     
 }
 
